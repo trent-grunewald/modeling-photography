@@ -1,0 +1,13 @@
+.landingImages{
+  height: 100vh;
+  background: linear-gradient(to bottom right,#12121359,#aa8a52a3,black),url(/public/images/landing.jpg) center center no-repeat;
+  background-size: cover;
+  width: 100%;
+  background-attachment: fixed;
+
+  .pictureArea{
+    background: #fff;
+    height: 100vh;
+    width: 94.15vw;
+  }
+}
