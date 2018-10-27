@@ -1,13 +1,28 @@
 .landingImages{
-  height: 100vh;
-  background: linear-gradient(to bottom right,#12121359,#aa8a52a3,black),url(/public/images/landing.jpg) center center no-repeat;
+  background: linear-gradient(to bottom right,#12121300,#aa8a528a),url(/public/images/landing.jpg) center center no-repeat;
   background-size: cover;
   width: 100%;
   background-attachment: fixed;
 
-  .pictureArea{
+  .pictureContainer{
+    padding: 3% 3%;
     background: #fff;
     height: 100vh;
-    width: 94.15vw;
+    width: 99.55%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+    
+    .picture {
+    width: 30%;
+    margin: 0 20px 20px 0;
+
+    img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+    }
   }
 }
